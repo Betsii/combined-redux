@@ -1,0 +1,6 @@
+const updatedata=()=>{
+    axios.patch("https://jsonplaceholder.typicode.com/todos/1",{})
+        title:"new title"
+    .then(res)
+    
+}
